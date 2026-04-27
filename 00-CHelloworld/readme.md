@@ -1,58 +1,23 @@
-# Trabajo Práctico 00 - Hello, World!
+# 00 - Preparación Inicial — «Hello, World!» en C
 
-## 👋 Presentación
+**Número de equipo:** 6
+**Nombre del equipo:** -
 
-Mi nombre es **Facundo Sanzo**  
-**Legajo:** 220.879-9
+**Autores de la resolución:**
+- Usuario GitHub: `@facussanzo`
+- Legajo: `220.879-9`
+- Apellido y Nombre: `Sanzo, Facundo`
 
-## 📘 Asignatura
+## Enunciado
+Adquirir y preparar los recursos necesarias para resolver los trabajos del curso.
 
-**Sintaxis y Semántica de los Lenguajes**
+## Hipótesis de trabajo
+- Se utiliza GCC como compilador principal en un entorno Windows.
+- El estándar solicitado es C23.
+- La redirección de stdout a `output.txt` preserva el salto de línea final.
 
-## 🏫 Curso
-
-**K2102**
-
-## 📚 Cursada
-
-**2025, anual**
-
-## 💻 Usuario GitHub
-
-_facussanzo_
-
----
-
-## 📝 **Trabajo Práctico 0: Hello, World!**
-
----
-
-## 📄 Enunciado
-
-> Desarrollar un programa simple en C que imprima en pantalla el mensaje "Hello, World!", como primer contacto con las herramientas necesarias para abordar los trabajos posteriores.
->
-> Objetivos:
-> - Demostrar capacidad para editar, compilar y ejecutar programas en C.
-> - Familiarizarse con el uso del sistema de control de versiones Git y GitHub.
->
-> Tareas principales:
-> 1. Crear una cuenta en GitHub y asociar el email institucional.
-> 2. Crear un repositorio público llamado `SSL` y dentro de él, una carpeta `00-CHelloworld`.
-> 3. Instalar y probar un compilador C (preferentemente C11 o C18).
-> 4. Crear el archivo `hello.c`, compilarlo y redireccionar su salida a `output.txt`.
-> 5. Publicar en GitHub: carpeta con `readme.md`, `hello.c` y `output.txt`.
-
----
-
-## 🔍 Hipótesis de Trabajo
-
-La tarea busca comprobar que el entorno de desarrollo está correctamente instalado y configurado, y que el estudiante puede interactuar con herramientas básicas como el compilador, el sistema de archivos, y GitHub. Esta práctica inicial sienta las bases técnicas y organizativas para los trabajos futuros del curso.
-
----
-
-## 📁 Contenido de la carpeta
-
-- `hello.c` — Código fuente del programa en C.
-- `output.txt` — Archivo con la salida redireccionada del programa.
-- `readme.md` — Este archivo.
-
+## Resultados de Compilación y Pruebas
+- **Compilador seleccionado:** GCC (GNU Compiler Collection)
+- **Versión del compilador:** 15.2.0
+- **Versión de C que compila:** C23 (202312L según macro `__STDC_VERSION__`)
+- **Prueba ejecutada:** El programa compiló sin errores/warnings con `-std=c23`. La salida por pantalla coincide con lo esperado. El archivo `output.txt` fue generado correctamente mediante redirección `>` y su contenido fue verificado.
